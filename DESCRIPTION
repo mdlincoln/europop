@@ -1,0 +1,16 @@
+Package: europop
+Type: Package
+Title: Historical Populations of European Cities
+Version: 0.1
+Date: 2015-12-01
+Authors@R: c(
+  person("Matthew", "Lincoln", email = "matthew.d.lincoln@gmail.com", role = "cre"),
+  person("Jan", "De Vries", role = "aut"))
+Description: Dataset of all European cities with at least 10,000 inhabitants
+  during the period 1500-1800 as compiled in Jan De Vries, "European
+  Urbanization, 1500-1800" (Cambridge: Harvard University Press, 1984)
+License: MIT
+LazyData: TRUE
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
