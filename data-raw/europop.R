@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyr)
 library(readr)
 
-pop_files <- list.files("data-raw", pattern = "*.csv", full.names = TRUE)
+pop_files <- list.files("data-raw/extracted/", pattern = "*.csv", full.names = TRUE)
 
 region_names <- c(
   "1" = "Sacndinavia",
