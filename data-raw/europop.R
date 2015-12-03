@@ -34,4 +34,5 @@ europop <- lapply(pop_files, function(x) read_csv(x, col_types = "cciiiiiii", na
     population = population) %>%
   select(city = City, region = Code, year, population)
 
+write_csv(europop, path = "data-raw/europop.csv")
 devtools::use_data(europop, overwrite = TRUE)
