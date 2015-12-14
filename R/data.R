@@ -7,6 +7,7 @@
 #'  \item{\code{year}}{}
 #'  \item{\code{population}}{Population in the tens of thousands. 0 represents a population under 10,000, while NA is used when the value is unknown.}
 #' }
+#' @details This table can be joined to the \link{city_coords} table by the \code{city} column.
 #' @source Jan De Vries, \emph{European Urbanization, 1500-1800} (Cambridge: Harvard University Press, 1984), Appendix I.
 "europop"
 
