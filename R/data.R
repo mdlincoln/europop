@@ -7,6 +7,7 @@
 #'  \item{year}{}
 #'  \item{population}{Population in the tens of thousands. 0 represents a population under 10,000, while NA is used when the value is unknown.}
 #' }
+#' @source Jan De Vries, \emph{European Urbanization, 1500-1800} (Cambridge: Harvard University Press, 1984), Appendix I.
 "europop"
 
 #' Coodinates of European Cities
