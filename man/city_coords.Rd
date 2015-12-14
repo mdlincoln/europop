@@ -16,7 +16,7 @@ city_coords
 \description{
 Coodinates of European Cities
 }
-\details{
+\note{
 This table can be joined to the \link{europop} table by the \code{city} column.
 }
 \keyword{datasets}

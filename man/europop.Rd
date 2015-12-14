@@ -9,7 +9,7 @@
  \item{\code{city}}{City name (in native language)}
  \item{\code{region}}{Region that city belongs to. One of the following: Sacndinavia, England and Wales, Scotland, Ireland, The Netherlands, Belgium, Germany, France, Switzerland, Northern Italy, Central Italy, Southern Italy, Spain, Portugal, Austria and Czechoslovakia, Poland}
  \item{\code{year}}{}
- \item{\code{population}}{Population in the tens of thousands. 0 represents a population under 10,000, while NA is used when the value is unknown.}
+ \item{\code{population}}{Population in the thousands. 0 represents a population under 1,000, while NA is used when the value is unknown.}
 }}
 \source{
 Jan De Vries, \emph{European Urbanization, 1500-1800} (Cambridge: Harvard University Press, 1984), Appendix I.
@@ -18,9 +18,9 @@ Jan De Vries, \emph{European Urbanization, 1500-1800} (Cambridge: Harvard Univer
 europop
 }
 \description{
-Historical Population Data for Urban Europe
+All cities that had a population of at least 10,000 at some point between 1500-1800 are included.
 }
-\details{
+\note{
 This table can be joined to the \link{city_coords} table by the \code{city} column.
 }
 \keyword{datasets}
