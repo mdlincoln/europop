@@ -1,4 +1,4 @@
-#' Historical Europe Population Data
+#' Historical Population Data for Urban Europe
 #'
 #' @format A data frame with 2653 rows and 4 columns:
 #' \describe{
