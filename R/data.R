@@ -5,7 +5,7 @@
 #' @format A data frame with 2653 rows and 4 columns:
 #' \describe{
 #'  \item{\code{city}}{City name (in native language)}
-#'  \item{\code{region}}{Region that city belongs to. One of the following: Sacndinavia, England and Wales, Scotland, Ireland, The Netherlands, Belgium, Germany, France, Switzerland, Northern Italy, Central Italy, Southern Italy, Spain, Portugal, Austria and Czechoslovakia, Poland}
+#'  \item{\code{region}}{Region that city belongs to. One of the following: Scandinavia, England and Wales, Scotland, Ireland, The Netherlands, Belgium, Germany, France, Switzerland, Northern Italy, Central Italy, Southern Italy, Spain, Portugal, Austria and Czechoslovakia, Poland}
 #'  \item{\code{year}}{}
 #'  \item{\code{population}}{Population in the thousands. 0 represents a population under 1,000, while NA is used when the value is unknown.}
 #' }

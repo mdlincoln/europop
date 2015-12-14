@@ -1,10 +1,10 @@
 city,region,year,population
-BERGEN,Sacndinavia,1500,0
-COPENHAGEN,Sacndinavia,1500,NA
-GOTEBORG,Sacndinavia,1500,0
-KARLSKRONA,Sacndinavia,1500,0
-OSLO,Sacndinavia,1500,0
-STOCKHOLM,Sacndinavia,1500,0
+BERGEN,Scandinavia,1500,0
+COPENHAGEN,Scandinavia,1500,NA
+GOTEBORG,Scandinavia,1500,0
+KARLSKRONA,Scandinavia,1500,0
+OSLO,Scandinavia,1500,0
+STOCKHOLM,Scandinavia,1500,0
 BATH,England and Wales,1500,0
 BIRMINGHAM,England and Wales,1500,0
 BLACKBURN,England and Wales,1500,0
@@ -378,12 +378,12 @@ WIEN,Austria and Czechoslovakia,1500,20
 KRAKOW,Poland,1500,0
 POZNAN,Poland,1500,0
 WARSZAWA,Poland,1500,0
-BERGEN,Sacndinavia,1550,0
-COPENHAGEN,Sacndinavia,1550,NA
-GOTEBORG,Sacndinavia,1550,0
-KARLSKRONA,Sacndinavia,1550,0
-OSLO,Sacndinavia,1550,0
-STOCKHOLM,Sacndinavia,1550,0
+BERGEN,Scandinavia,1550,0
+COPENHAGEN,Scandinavia,1550,NA
+GOTEBORG,Scandinavia,1550,0
+KARLSKRONA,Scandinavia,1550,0
+OSLO,Scandinavia,1550,0
+STOCKHOLM,Scandinavia,1550,0
 BATH,England and Wales,1550,0
 BIRMINGHAM,England and Wales,1550,1
 BLACKBURN,England and Wales,1550,0
@@ -757,12 +757,12 @@ WIEN,Austria and Czechoslovakia,1550,NA
 KRAKOW,Poland,1550,0
 POZNAN,Poland,1550,0
 WARSZAWA,Poland,1550,10
-BERGEN,Sacndinavia,1600,0
-COPENHAGEN,Sacndinavia,1600,NA
-GOTEBORG,Sacndinavia,1600,0
-KARLSKRONA,Sacndinavia,1600,0
-OSLO,Sacndinavia,1600,0
-STOCKHOLM,Sacndinavia,1600,NA
+BERGEN,Scandinavia,1600,0
+COPENHAGEN,Scandinavia,1600,NA
+GOTEBORG,Scandinavia,1600,0
+KARLSKRONA,Scandinavia,1600,0
+OSLO,Scandinavia,1600,0
+STOCKHOLM,Scandinavia,1600,NA
 BATH,England and Wales,1600,0
 BIRMINGHAM,England and Wales,1600,2
 BLACKBURN,England and Wales,1600,0
@@ -1136,12 +1136,12 @@ WIEN,Austria and Czechoslovakia,1600,50
 KRAKOW,Poland,1600,0
 POZNAN,Poland,1600,0
 WARSZAWA,Poland,1600,15
-BERGEN,Sacndinavia,1650,NA
-COPENHAGEN,Sacndinavia,1650,23
-GOTEBORG,Sacndinavia,1650,4
-KARLSKRONA,Sacndinavia,1650,0
-OSLO,Sacndinavia,1650,0
-STOCKHOLM,Sacndinavia,1650,40
+BERGEN,Scandinavia,1650,NA
+COPENHAGEN,Scandinavia,1650,23
+GOTEBORG,Scandinavia,1650,4
+KARLSKRONA,Scandinavia,1650,0
+OSLO,Scandinavia,1650,0
+STOCKHOLM,Scandinavia,1650,40
 BATH,England and Wales,1650,1
 BIRMINGHAM,England and Wales,1650,4
 BLACKBURN,England and Wales,1650,0
@@ -1515,12 +1515,12 @@ WIEN,Austria and Czechoslovakia,1650,60
 KRAKOW,Poland,1650,0
 POZNAN,Poland,1650,0
 WARSZAWA,Poland,1650,20
-BERGEN,Sacndinavia,1700,NA
-COPENHAGEN,Sacndinavia,1700,70
-GOTEBORG,Sacndinavia,1700,6
-KARLSKRONA,Sacndinavia,1700,0
-OSLO,Sacndinavia,1700,0
-STOCKHOLM,Sacndinavia,1700,45
+BERGEN,Scandinavia,1700,NA
+COPENHAGEN,Scandinavia,1700,70
+GOTEBORG,Scandinavia,1700,6
+KARLSKRONA,Scandinavia,1700,0
+OSLO,Scandinavia,1700,0
+STOCKHOLM,Scandinavia,1700,45
 BATH,England and Wales,1700,3
 BIRMINGHAM,England and Wales,1700,7
 BLACKBURN,England and Wales,1700,0
@@ -1894,12 +1894,12 @@ WIEN,Austria and Czechoslovakia,1700,114
 KRAKOW,Poland,1700,NA
 POZNAN,Poland,1700,0
 WARSZAWA,Poland,1700,15
-BERGEN,Sacndinavia,1750,14
-COPENHAGEN,Sacndinavia,1750,93
-GOTEBORG,Sacndinavia,1750,8
-KARLSKRONA,Sacndinavia,1750,5
-OSLO,Sacndinavia,1750,7
-STOCKHOLM,Sacndinavia,1750,60
+BERGEN,Scandinavia,1750,14
+COPENHAGEN,Scandinavia,1750,93
+GOTEBORG,Scandinavia,1750,8
+KARLSKRONA,Scandinavia,1750,5
+OSLO,Scandinavia,1750,7
+STOCKHOLM,Scandinavia,1750,60
 BATH,England and Wales,1750,9
 BIRMINGHAM,England and Wales,1750,24
 BLACKBURN,England and Wales,1750,4
@@ -2273,12 +2273,12 @@ WIEN,Austria and Czechoslovakia,1750,175
 KRAKOW,Poland,1750,NA
 POZNAN,Poland,1750,0
 WARSZAWA,Poland,1750,23
-BERGEN,Sacndinavia,1800,17
-COPENHAGEN,Sacndinavia,1800,101
-GOTEBORG,Sacndinavia,1800,13
-KARLSKRONA,Sacndinavia,1800,10
-OSLO,Sacndinavia,1800,12
-STOCKHOLM,Sacndinavia,1800,75
+BERGEN,Scandinavia,1800,17
+COPENHAGEN,Scandinavia,1800,101
+GOTEBORG,Scandinavia,1800,13
+KARLSKRONA,Scandinavia,1800,10
+OSLO,Scandinavia,1800,12
+STOCKHOLM,Scandinavia,1800,75
 BATH,England and Wales,1800,32
 BIRMINGHAM,England and Wales,1800,69
 BLACKBURN,England and Wales,1800,12
