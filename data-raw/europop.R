@@ -6,7 +6,7 @@ library(readr)
 pop_files <- list.files("data-raw/extracted/", pattern = "*.csv", full.names = TRUE)
 
 region_names <- c(
-  "1" = "Sacndinavia",
+  "1" = "Scandinavia",
   "2" = "England and Wales",
   "3" = "Scotland",
   "4" = "Ireland",
