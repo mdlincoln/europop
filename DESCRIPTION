@@ -12,5 +12,9 @@ Description: Dataset of all European cities with at least 10,000 inhabitants
 License: MIT
 LazyData: TRUE
 Suggests: knitr,
-    rmarkdown
+    rmarkdown,
+    plyr,
+    dplyr,
+    tidyr,
+    readr
 VignetteBuilder: knitr
