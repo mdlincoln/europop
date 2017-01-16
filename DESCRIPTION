@@ -1,7 +1,7 @@
 Package: europop
 Type: Package
 Title: Historical Populations of European Cities, 1500-1800
-Version: 0.2
+Version: 0.2.9000
 Date: 2015-12-18
 Authors@R: c(
   person("Matthew", "Lincoln", email = "matthew.d.lincoln@gmail.com", role = c("aut", "cre")),
