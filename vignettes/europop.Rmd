@@ -1,0 +1,79 @@
+---
+title: "Vignette Title"
+author: "Vignette Author"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r libraries}
+library(europop)
+library(rgdal)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r map}
+eur_shp <- readOGR(system.file("extdata", "eur_coast", package = "europop"), layer = "coastlines_z4") %>% spTransform(CRS("+proj=longlat +datum=WGS84"))
+eur_df <- fortify(eur_shp)
+
+pop_points <- europop %>% inner_join(city_coords, by = "city")
+
+ggplot() +
+  geom_map(data = eur_df, map = eur_df, aes(x = long, y = lat, group = group, map_id = id), fill = "white", color = "black") +
+  geom_point(data = pop_points, aes(x = lon, y = lat, color = region, size = population)) +
+  coord_map() +
+  facet_wrap(~ year) +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  ylim(min(pop_points$lat), max(pop_points$lat)) +
+  xlim(min(pop_points$lon), max(pop_points$lon))
+```
+
+```{r plot}
+region_totals <- europop %>% 
+  mutate(region = plyr::revalue(region, c(
+    "Northern Italy" = "Italy", 
+    "Southern Italy" = "Italy", 
+    "Central Italy" = "Italy", 
+    "The Netherlands" = "The Low Countries", 
+    "Belgium" = "The Low Countries", 
+    "England and Wales" = "British Isles", 
+    "Ireland" = "British Isles", 
+    "Scotland" = "British Isles", 
+    "Spain" = "Iberia", 
+    "Portugal" = "Iberia", 
+    "Switzerland" = "Germany", 
+    "Austria and Czechoslovakia" = "Germany"))) %>% 
+  group_by(year, region) %>% 
+  summarize(totalpop = sum(population, na.rm = TRUE))
+
+ggplot(region_totals, aes(x = year, y = totalpop, fill = region)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_brewer(type = "qual", palette = 7) +
+  theme_bw()
+```
+
+```{r}
+top_pop <- europop %>% 
+  group_by(city) %>% 
+  summarize(maxpop = max(population, na.rm = TRUE)) %>% 
+  mutate(maxrank = row_number(desc(maxpop))) %>% 
+  filter(maxrank <= 8)
+
+pop_lines <- europop %>% 
+  inner_join(top_pop, by = "city") %>% 
+  group_by(year) %>% 
+  mutate(poprank = row_number(desc(population)))
+
+ggplot(pop_lines, aes(x = year, y = poprank, color = city)) +
+  geom_line(size = 3) +
+  scale_color_brewer(type = "qual", palette = 7) +
+  scale_y_reverse(lim = c(8, 1)) +
+  theme_bw() +
+  labs(x = NULL, y = "Rank", title = "Top 8 most populous European cities ranked by size")
+```
+
