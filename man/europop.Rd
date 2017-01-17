@@ -6,10 +6,26 @@
 \title{Historical Population Data for Urban Europe}
 \format{A data frame with 2653 rows and 4 columns:
 \describe{
- \item{\code{city}}{City name (in native language)}
- \item{\code{region}}{Region that city belongs to. One of the following: Sacndinavia, England and Wales, Scotland, Ireland, The Netherlands, Belgium, Germany, France, Switzerland, Northern Italy, Central Italy, Southern Italy, Spain, Portugal, Austria and Czechoslovakia, Poland}
- \item{\code{year}}{}
- \item{\code{population}}{Population in the thousands. 0 represents a population under 1,000, while NA is used when the value is unknown.}
+ \item{\code{city}}{Character. City name (in native language.)}
+ \item{\code{region}}{Character. Region that city belongs to. One of the following: \itemize{
+ \item Scandinavia
+ \item England and Wales
+ \item Scotland
+ \item Ireland
+ \item The Netherlands
+ \item Belgium
+ \item Germany
+ \item France
+ \item Switzerland
+ \item Northern Italy
+ \item Central Italy
+ \item Southern Italy
+ \item Spain
+ \item Portugal
+ \item Austria and Czechoslovakia
+ \item Poland.}}
+ \item{\code{year}}{Integer.}
+ \item{\code{population}}{Integer. Population in the thousands. 0 represents a population under 1,000, while NA is used when the value is unknown.}
 }}
 \source{
 Jan De Vries, \emph{European Urbanization, 1500-1800} (Cambridge: Harvard University Press, 1984), Appendix I.

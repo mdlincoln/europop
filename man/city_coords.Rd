@@ -4,11 +4,11 @@
 \name{city_coords}
 \alias{city_coords}
 \title{Coodinates of European Cities}
-\format{A data frame with 379 rows and 3 colums
+\format{A data frame with 379 rows and 3 columns
 \describe{
- \item{\code{lat}}{}
- \item{\code{lon}}{}
- \item{\code{city}}{City name}
+ \item{\code{lat}}{Double. Latitude.}
+ \item{\code{lon}}{Double. Longitude.}
+ \item{\code{city}}{Character. City name.}
 }}
 \usage{
 city_coords
