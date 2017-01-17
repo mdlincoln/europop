@@ -26,14 +26,17 @@
 #'  \item Poland}}
 #'  \item{\code{year}}{Integer.}
 #'  \item{\code{population}}{Integer. Population in the thousands. 0 represents
-#'  a population under 1,000, while NA is used when the value is unknown.}
+#'  a population under 1,000 (such cities are presented, in De Vries' words,
+#'  "for information only").  \code{NA} is used when the population value is
+#'  unknown.}
 #' }
 #'
 #' @note This table can be joined to the \link{city_coords} table by the
 #'   \code{city} column.
 #'
 #' @source Jan De Vries, \emph{European Urbanization, 1500-1800} (Cambridge:
-#'   Harvard University Press, 1984), Appendix I.
+#'   Harvard University Press, 1984), Appendix 2. [De Vries' sources for these
+#'   numbers are cataloged in Appendix 2.]
 "europop"
 
 #' Coodinates of European Cities

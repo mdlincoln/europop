@@ -7,7 +7,8 @@
 \format{A data frame with 2653 rows and 4 columns:
 \describe{
  \item{\code{city}}{Character. City name (in native language.)}
- \item{\code{region}}{Character. Region that city belongs to. One of the following: \itemize{
+ \item{\code{region}}{Character. Region that city belongs to. One of the
+ following: \itemize{
  \item Scandinavia
  \item England and Wales
  \item Scotland
@@ -23,21 +24,28 @@
  \item Spain
  \item Portugal
  \item Austria and Czechoslovakia
- \item Poland.}}
+ \item Poland}}
  \item{\code{year}}{Integer.}
- \item{\code{population}}{Integer. Population in the thousands. 0 represents a population under 1,000, while NA is used when the value is unknown.}
+ \item{\code{population}}{Integer. Population in the thousands. 0 represents
+ a population under 1,000 (such cities are presented, in De Vries' words,
+ "for information only").  \code{NA} is used when the population value is
+ unknown.}
 }}
 \source{
-Jan De Vries, \emph{European Urbanization, 1500-1800} (Cambridge: Harvard University Press, 1984), Appendix I.
+Jan De Vries, \emph{European Urbanization, 1500-1800} (Cambridge:
+  Harvard University Press, 1984), Appendix 2. [De Vries' sources for these
+  numbers are cataloged in Appendix 2.]
 }
 \usage{
 europop
 }
 \description{
-All cities that had a population of at least 10,000 at some point between 1500-1800 are included.
+All cities that had a population of at least 10,000 at some point between
+1500-1800 are included.
 }
 \note{
-This table can be joined to the \link{city_coords} table by the \code{city} column.
+This table can be joined to the \link{city_coords} table by the
+  \code{city} column.
 }
 \keyword{datasets}
 
