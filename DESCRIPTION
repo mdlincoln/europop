@@ -11,14 +11,12 @@ Description: Dataset of all European cities with at least 10,000 inhabitants
     Urbanization, 1500-1800" (Cambridge: Harvard University Press, 1984)
 License: MIT + file LICENSE
 LazyData: TRUE
+Depends:
+    R (>= 2.10)
 Suggests:
-    knitr,
-    rmarkdown,
-    plyr,
     dplyr,
     tidyr,
     readr
-VignetteBuilder: knitr
 RoxygenNote: 5.0.1
 URL: https://github.com/mdlincoln/europop
 BugReports: https://github.com/mdlincoln/europop/issues
