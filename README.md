@@ -1,7 +1,6 @@
 europop
 =======
 
-[![CRAN status.](http://www.r-pkg.org/badges/version/europop)](http://www.r-pkg.org/pkg/europop)
 [![Travis-CI Build Status](https://travis-ci.org/mdlincoln/europop.svg?branch=master)](https://travis-ci.org/mdlincoln/europop)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/mdlincoln/europop?branch=master&svg=true)](https://ci.appveyor.com/project/mdlincoln/europop)
 [![DOI](https://zenodo.org/badge/5105/mdlincoln/europop.svg)](https://zenodo.org/badge/latestdoi/5105/mdlincoln/europop)
