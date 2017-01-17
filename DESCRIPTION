@@ -17,8 +17,6 @@ Suggests:
     plyr,
     dplyr,
     tidyr,
-    readr,
-    testthat,
-    assertr
+    readr
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
