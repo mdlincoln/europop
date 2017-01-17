@@ -40,3 +40,7 @@ europop <- lapply(pop_files, function(x) read_csv(x, col_types = "cciiiiiii", na
 
 write_csv(europop, path = "data-raw/europop.csv")
 devtools::use_data(europop, overwrite = TRUE)
+
+# Read in coordinates file
+city_coords <- read_csv("data-raw/city_coords.csv", col_types = "ddc")
+devtools::use_data(city_coords, overwrite = TRUE)
