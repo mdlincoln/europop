@@ -1,10 +1,11 @@
-library(plyr)
 library(dplyr)
 library(tidyr)
 library(readr)
 
+# Get filenames of the original tables
 pop_files <- list.files("data-raw/extracted/", pattern = "*.csv", full.names = TRUE)
 
+# Map region codes to English names
 region_names <- c(
   "1" = "Scandinavia",
   "2" = "England and Wales",
@@ -24,15 +25,18 @@ region_names <- c(
   "16" = "Poland"
 )
 
+# Read each table and bind together
 europop <- lapply(pop_files, function(x) read_csv(x, col_types = "cciiiiiii", na = "UNK")) %>%
   bind_rows() %>%
+  # Reshape into long table
   gather(year, population, `1500`:`1800`) %>%
   arrange(year) %>%
+  # Set the correct variable types
   mutate(
-    year = as.integer(as.character(year)),
-    Code = revalue(Code, region_names),
-    population = population) %>%
-  select(city = City, region = Code, year, population)
+    year = as.integer(year),
+    region = plyr::revalue(Code, region_names)) %>%
+  # Set final variables
+  select(city = City, region, year, population)
 
 write_csv(europop, path = "data-raw/europop.csv")
 devtools::use_data(europop, overwrite = TRUE)
