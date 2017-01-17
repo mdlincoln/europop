@@ -9,7 +9,7 @@ Authors@R: c(
 Description: Dataset of all European cities with at least 10,000 inhabitants
     during the period 1500-1800 as compiled in Jan De Vries, "European
     Urbanization, 1500-1800" (Cambridge: Harvard University Press, 1984)
-License: MIT
+License: MIT + file LICENSE
 LazyData: TRUE
 Suggests:
     knitr,
