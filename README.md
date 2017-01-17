@@ -13,4 +13,4 @@ The original tables as published in De Vries 1984 are available in [`data-raw/ex
 With this package, I have also included a table of coordinates for each city in [`data-raw/city_coords.csv`](https://github.com/mdlincoln/europop/blob/master/data-raw/city_coords.csv).
 
 ---
-[Matthew Lincoln](http://matthewlincoln.net) | University of Maryland, College Park
+[Matthew Lincoln](http://matthewlincoln.net)
