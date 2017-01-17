@@ -35,8 +35,8 @@
 #'   \code{city} column.
 #'
 #' @source Jan De Vries, \emph{European Urbanization, 1500-1800} (Cambridge:
-#'   Harvard University Press, 1984), Appendix 2. [De Vries' sources for these
-#'   numbers are cataloged in Appendix 2.]
+#'   Harvard University Press, 1984), Appendix 2. (De Vries' sources for these
+#'   numbers are cataloged in Appendix 2.)
 "europop"
 
 #' Coodinates of European Cities
