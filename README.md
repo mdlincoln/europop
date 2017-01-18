@@ -6,7 +6,7 @@ europop
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/mdlincoln/europop?branch=master&svg=true)](https://ci.appveyor.com/project/mdlincoln/europop)
 [![DOI](https://zenodo.org/badge/5105/mdlincoln/europop.svg)](https://zenodo.org/badge/latestdoi/5105/mdlincoln/europop)
 
-Historical populations of European cities, 1500-1800, as compiled by Jan De Vries, *European Urbanization, 1500-1800* (Cambridge: Harvard University Press, 1984), Appendix I.
+Historical population estimates of European cities, 1500-1800, as compiled by Jan De Vries, *European Urbanization, 1500-1800* (Cambridge: Harvard University Press, 1984), Appendix I.
 
 The original tables as published in De Vries 1984 are available in [`data-raw/extracted`](https://github.com/mdlincoln/europop/tree/master/data-raw/extracted), with the tidied version available in [`data-raw/europop.csv`](https://github.com/mdlincoln/europop/blob/master/data-raw/europop.csv)
 
