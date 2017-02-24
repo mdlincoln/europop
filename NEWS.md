@@ -1,3 +1,7 @@
+# europop 0.3.1
+
+* Corrects a pair of erroneous coordinates for the city of Lier.
+
 # europop 0.3
 
 * First CRAN release
